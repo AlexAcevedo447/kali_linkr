@@ -1,0 +1,29 @@
+{
+  "name": "kali_linkr",
+  "version": "0.0.1",
+  "description": "Dependency injector",
+  "main": "src/index.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AlexAcevedo447/kali_linkr.git"
+  },
+  "keywords": [
+    "DI",
+    "Hexagonal",
+    "Architecture",
+    "DDD",
+    "Architecture."
+  ],
+  "author": "Alexis Acevedo (AlexAcevedo447)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AlexAcevedo447/kali_linkr/issues"
+  },
+  "homepage": "https://github.com/AlexAcevedo447/kali_linkr#readme",
+  "dependencies": {
+    "reflect-metadata": "^0.2.2"
+  }
+}
