@@ -1,10 +1,15 @@
 {
-  "name": "kali_linkr",
+  "name": "kali-linkr",
   "version": "0.0.1",
-  "description": "Dependency injector",
-  "main": "src/index.ts",
+  "description": "Dependency injection container for TypeScript with support for generics and clean architecture.",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "tsc",
+    "prepublishOnly": "npm run build"
   },
   "repository": {
     "type": "git",
@@ -12,18 +17,23 @@
   },
   "keywords": [
     "DI",
+    "IoC",
     "Hexagonal",
-    "Architecture",
+    "Clean Architecture",
     "DDD",
-    "Architecture."
+    "dependency-injection",
+    "typescript"
   ],
   "author": "Alexis Acevedo (AlexAcevedo447)",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/AlexAcevedo447/kali_linkr/issues"
   },
   "homepage": "https://github.com/AlexAcevedo447/kali_linkr#readme",
   "dependencies": {
     "reflect-metadata": "^0.2.2"
+  },
+  "devDependencies": {
+    "typescript": "^5.3.3"
   }
 }
