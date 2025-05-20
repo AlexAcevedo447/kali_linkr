@@ -6,7 +6,7 @@ import { Constructor } from "./interfaces/constructor";
 export class Container {
   constructor(private bindings: Map<Token<any>, Binding<any>>) {}
 
-  public resolve<T>(tokenOrType: Token<T>): Constructor<T> {
+  public resolve<T>(tokenOrType: Token<T>): T {
     const binding = this.bindings.get(tokenOrType);
 
     const Target = binding?.useClass ?? tokenOrType;
