@@ -1,6 +1,6 @@
 {
   "name": "kali-linkr",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Dependency injection container for TypeScript with support for generics and clean architecture.",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
